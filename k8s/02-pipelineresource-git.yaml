@@ -1,0 +1,11 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: cicd-pipelineresource-git
+spec:
+  type: git
+  params:
+    - name: url
+      value: https://github.com/j-dhall/cicd
+    - name: revision
+      value: main
