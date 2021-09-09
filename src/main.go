@@ -7,5 +7,5 @@ func sum(a, b int) int {
 }
 
 func main() {
-	fmt.Println("Sum:", sum(1,2))
+	fmt.Println("CICD Sum:", sum(14,5))
 }
